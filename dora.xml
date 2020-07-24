@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="oe" fetch="git://git.openembedded.org"/>
+    <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+    <remote name="raspberrypi" fetch="https://git.yoctoproject.org/cgit/cgit.cgi"/>
+    <remote name="qt" fetch="https://github.com/meta-qt5/"/>
+
+    <project name="meta-openembedded"
+        remote="oe"
+        revision="dora"
+        path="sources/meta-openembedded"/>
+
+    <project name="openembedded-core"
+        remote="oe"
+        revision="dora"
+        path="sources/openembedded-core"/>
+
+    <project name="poky"
+        remote="yocto"
+        revision="dora"
+        path="sources/poky"/>
+
+   <project name="meta-raspberrypi"
+        remote="raspberrypi"
+        revision="dora"
+        path="sources/meta-raspberrypi"/>
+
+    <project name="meta-qt5"
+        remote="qt"
+        revision="dora"
+        path="sources/meta-qt5"/>
+
+</manifest>
+
+
