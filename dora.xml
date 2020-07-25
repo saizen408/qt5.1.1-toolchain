@@ -4,7 +4,7 @@
     <remote name="oe" fetch="git://git.openembedded.org"/>
     <remote name="yocto" fetch="git://git.yoctoproject.org"/>
     <remote name="freescale" fetch="git://github.com/Freescale"/>
-    <remote name="raspberrypi" fetch="https://github.com/saizen408/"/>
+    <remote name="raspberrypi" fetch="https://git.yoctoproject.org/cgit/cgit.cgi"/>
     <remote name="qt" fetch="https://github.com/meta-qt5/"/>
 
     <project name="meta-openembedded"
@@ -19,12 +19,12 @@
 
     <project name="poky"
         remote="yocto"
-        revision="dora"
+        revision="thud"
         path="sources/poky"/>
 
    <project name="meta-raspberrypi"
         remote="raspberrypi"
-        revision="dora"
+        revision="thud"
         path="sources/meta-raspberrypi"/>
 
     <project name="meta-qt5"
