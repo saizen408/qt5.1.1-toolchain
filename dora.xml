@@ -3,51 +3,33 @@
 
     <remote name="oe" fetch="git://git.openembedded.org"/>
     <remote name="yocto" fetch="git://git.yoctoproject.org"/>
-    <remote name="freescale" fetch="git://github.com/Freescale"/>
-    <remote name="raspberrypi" fetch="https://git.yoctoproject.org/cgit/cgit.cgi"/>
+    <remote name="raspberrypi" fetch="https://github.com/saizen408"/>
     <remote name="qt" fetch="https://github.com/meta-qt5/"/>
 
     <project name="meta-openembedded"
         remote="oe"
-        revision="thud"
+        revision="dora"
         path="sources/meta-openembedded"/>
 
     <project name="openembedded-core"
         remote="oe"
-        revision="thud"
+        revision="dora"
         path="sources/openembedded-core"/>
 
     <project name="poky"
         remote="yocto"
-        revision="thud"
+        revision="dora"
         path="sources/poky"/>
 
    <project name="meta-raspberrypi"
         remote="raspberrypi"
-        revision="thud"
+        revision="dora"
         path="sources/meta-raspberrypi"/>
 
     <project name="meta-qt5"
         remote="qt"
         revision="dora"
         path="sources/meta-qt5"/>
-
-    <project name="meta-fsl-arm"
-        remote="yocto"
-        revision="dora"
-        path="sources/meta-fsl-arm"/>
-
-
-  <project name="fsl-community-bsp-base"
-        remote="freescale"
-        revision="dora"
-        path="sources/base">
-        <copyfile dest="README" src="README"/>
-        <copyfile dest="setup-environment" src="setup-environment"/>
-  </project>
-
-  <project remote="freescale" revision="dora" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
-  <project remote="freescale" revision="dora" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
 
 </manifest>
 
