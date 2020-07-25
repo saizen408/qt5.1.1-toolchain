@@ -9,12 +9,12 @@
 
     <project name="meta-openembedded"
         remote="oe"
-        revision="dora"
+        revision="thud"
         path="sources/meta-openembedded"/>
 
     <project name="openembedded-core"
         remote="oe"
-        revision="dora"
+        revision="thud"
         path="sources/openembedded-core"/>
 
     <project name="poky"
