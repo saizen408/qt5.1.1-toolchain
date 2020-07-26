@@ -4,7 +4,8 @@
     <remote name="oe" fetch="git://git.openembedded.org"/>
     <remote name="yocto" fetch="git://git.yoctoproject.org"/>
     <remote name="raspberrypi" fetch="https://github.com/saizen408"/>
-    <remote name="qt" fetch="https://github.com/meta-qt5/"/>
+    <remote name="qt" fetch="https://github.com/meta-qt5"/>
+    <remote name="cuteradio" fetch="https://github.com/saizen408"/>
 
     <project name="meta-openembedded"
         remote="oe"
@@ -30,6 +31,11 @@
         remote="qt"
         revision="dora"
         path="sources/meta-qt5"/>
+
+    <project name="meta-cuteradio"
+        remote="cuteradio"
+        revision="dora"
+        path="sources/meta-cuteradio"/>
 
 </manifest>
 
