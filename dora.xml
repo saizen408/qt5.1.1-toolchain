@@ -16,7 +16,7 @@
 <!-- revised dora with updated conf/machine/include/arm/arch-armv7a.inc -->
     <project name="openembedded-core"
         remote="oe-core"
-        revision="dora"
+        revision="thud"
         path="sources/openembedded-core"/>
 
     <project name="poky"
