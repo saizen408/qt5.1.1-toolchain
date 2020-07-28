@@ -26,7 +26,7 @@
 
    <project name="meta-raspberrypi"
         remote="raspberrypi"
-        revision="dora"
+        revision="thud"
         path="sources/meta-raspberrypi"/>
 
     <project name="meta-qt5"
