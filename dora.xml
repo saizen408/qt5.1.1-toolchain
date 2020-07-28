@@ -21,7 +21,7 @@
 
     <project name="poky"
         remote="yocto"
-        revision="dora"
+        revision="thud"
         path="sources/poky"/>
 
    <project name="meta-raspberrypi"
