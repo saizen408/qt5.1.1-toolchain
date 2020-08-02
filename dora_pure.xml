@@ -11,6 +11,11 @@
         revision="dora"
         path="sources/meta-openembedded"/>
 
+    <project name="openembedded-core"
+        remote="oe"
+        revision="dora"
+        path="sources/openembedded-core"/>
+
     <project name="poky"
         remote="yocto"
         revision="dora"
