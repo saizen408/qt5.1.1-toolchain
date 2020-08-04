@@ -23,7 +23,7 @@
 
    <project name="meta-raspberrypi"
         remote="raspberrypi"
-        revision="dora"
+        revision="krogoth"
         path="sources/meta-raspberrypi"/>
 
     <project name="meta-qt5"
