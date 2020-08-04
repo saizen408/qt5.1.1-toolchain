@@ -28,7 +28,7 @@
 
     <project name="meta-qt5"
         remote="qt"
-        revision="dora"
+        revision="dizzy"
         path="sources/meta-qt5"/>
 </manifest>
 
