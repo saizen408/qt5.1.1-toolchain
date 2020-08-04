@@ -5,7 +5,7 @@
     <remote name="yocto" fetch="git://git.yoctoproject.org"/>
     <remote name="raspberrypi" fetch="https://github.com/agherzan"/>
     <remote name="qt" fetch="https://github.com/meta-qt5"/>
-    <remote name="jumpnow" fetch="https://github.com/jumpnow/meta-rpi.git"/>
+    <remote name="jumpnow" fetch="https://github.com/jumpnow/"/>
 
     <project name="meta-openembedded"
         remote="oe"
