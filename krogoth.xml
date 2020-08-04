@@ -8,17 +8,17 @@
 
     <project name="meta-openembedded"
         remote="oe"
-        revision="dora"
+        revision="krogoth"
         path="sources/meta-openembedded"/>
 
     <project name="openembedded-core"
         remote="oe"
-        revision="dora"
+        revision="krogoth"
         path="sources/openembedded-core"/>
 
     <project name="poky"
         remote="yocto"
-        revision="dora"
+        revision="krogoth"
         path="sources/poky"/>
 
    <project name="meta-raspberrypi"
