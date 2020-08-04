@@ -5,6 +5,7 @@
     <remote name="yocto" fetch="git://git.yoctoproject.org"/>
     <remote name="raspberrypi" fetch="https://github.com/agherzan"/>
     <remote name="qt" fetch="https://github.com/meta-qt5"/>
+    <remote name="jumpnow" fetch="https://github.com/jumpnow/meta-rpi.git"/>
 
     <project name="meta-openembedded"
         remote="oe"
@@ -30,6 +31,12 @@
         remote="qt"
         revision="dizzy"
         path="sources/meta-qt5"/>
+
+    <project name="meta-rpi"
+        remote="jumpnow"
+        revision="krogoth"
+        path="sources/meta-rpi"/>
+
 </manifest>
 
 
