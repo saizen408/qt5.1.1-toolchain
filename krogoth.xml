@@ -25,7 +25,6 @@
    <project name="meta-raspberrypi"
         remote="raspberrypi"
         revision="krogoth"
-        commit=
         path="sources/meta-raspberrypi"/>
 
     <project name="meta-qt5"
