@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="oe" fetch="git://git.openembedded.org"/>
+    <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+    <remote name="raspberrypi" fetch="https://github.com/agherzan"/>
+    <remote name="qt" fetch="https://github.com/meta-qt5"/>
+    <remote name="jumpnow" fetch="https://github.com/jumpnow/"/>
+
+    <project name="meta-openembedded"
+        remote="oe"
+        revision="krogoth"
+        path="sources/meta-openembedded"/>
+
+    <project name="openembedded-core"
+        remote="oe"
+        revision="dizzy"
+        path="sources/openembedded-core"/>
+
+    <project name="poky"
+        remote="yocto"
+        revision="krogoth"
+        path="sources/poky"/>
+
+   <project name="meta-raspberrypi"
+        remote="raspberrypi"
+        revision="krogoth"
+        path="sources/meta-raspberrypi"/>
+
+    <project name="meta-qt5"
+        remote="qt"
+        revision="dizzy"
+        path="sources/meta-qt5"/>
+
+    <project name="meta-rpi"
+        remote="jumpnow"
+        revision="krogoth"
+        path="sources/meta-rpi"/>
+
+</manifest>
+
+
