@@ -14,7 +14,7 @@
 
     <project name="openembedded-core"
         remote="oe"
-        revision="krogoth"
+        revision="master"
         path="sources/openembedded-core"/>
 
     <project name="poky"
